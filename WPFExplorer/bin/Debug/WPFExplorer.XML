@@ -1,0 +1,1332 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WPFExplorer</name>
+    </assembly>
+    <members>
+        <member name="F:WPFExplorer.AboutBox1.components">
+            <summary>
+            Требуется переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.AboutBox1.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.AboutBox1.InitializeComponent">
+            <summary>
+            Обязательный метод для поддержки конструктора - не изменяйте
+            содержимое данного метода при помощи редактора кода.
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.BaseActContent">
+            <summary>
+            base class for Act content
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.BaseActContent.SearchDirectory(System.IO.DirectoryInfo,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Boolean,System.Int32@)">
+            <summary>
+            method search content
+            </summary>
+            <param name="root">root</param>
+            <param name="AllDirs">save path disr</param>
+            <param name="AllFiles">save path files</param>
+            <param name="flag">flag delete or not</param>
+        </member>
+        <member name="M:WPFExplorer.BaseActContent.AddContent(System.Collections.Generic.List{System.IO.DirectoryInfo},System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Int32@,System.Collections.Generic.List{System.String})">
+            <summary>
+            method for add content
+            </summary>
+            <param name="copy"></param>
+            <param name="dirs"></param>
+            <param name="files"></param>
+            <param name="count"></param>
+            <param name="parent"></param>
+        </member>
+        <member name="M:WPFExplorer.BaseActContent.StartCopy(System.IO.DirectoryInfo,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Boolean,WPFExplorer.Copy)">
+            <summary>
+            method start copy
+            </summary>
+            <param name="insert"></param>
+            <param name="dirs"></param>
+            <param name="parent"></param>
+            <param name="files"></param>
+            <param name="flag"></param>
+            <param name="cp"></param>
+        </member>
+        <member name="M:WPFExplorer.BaseActContent.ChangeDirectory(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},System.Boolean,System.String,WPFExplorer.Copy)">
+            <summary>
+            method for change or delete dirs 
+            </summary>
+            <param name="parent"></param>
+            <param name="dirs"></param>
+            <param name="flag"></param>
+            <param name="newPath"></param>
+            <param name="cp"></param>
+        </member>
+        <member name="M:WPFExplorer.BaseActContent.ChangeFiles(System.Collections.Generic.List{System.String},System.String,System.Collections.Generic.List{System.String},System.Boolean,WPFExplorer.Copy)">
+            <summary>
+            method for change file
+            </summary>
+            <param name="files"></param>
+            <param name="newPath"></param>
+            <param name="parent"></param>
+            <param name="flag"></param>
+            <param name="cp"></param>
+        </member>
+        <member name="T:WPFExplorer.CharecterPC">
+            <summary>
+            class for read parameters PC
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.CharecterPC.VideoController">
+            <summary>
+            method of obtaining information videoController
+            </summary>
+            <returns>information videoController</returns>
+        </member>
+        <member name="M:WPFExplorer.CharecterPC.Proccesor">
+            <summary>
+             method of obtaining information Processor
+            </summary>
+            <returns>information Processor</returns>
+        </member>
+        <member name="M:WPFExplorer.CharecterPC.RAM">
+            <summary>
+             method of obtaining information RAM
+            </summary>
+            <returns>information Processor</returns>
+        </member>
+        <member name="M:WPFExplorer.CharecterPC.Windows">
+            <summary>
+             method of obtaining information Windows
+            </summary>
+            <returns>information Processor</returns>
+        </member>
+        <member name="T:WPFExplorer.Copy">
+            <summary>
+            class copy content
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.Copy.AddContent">
+            <summary>
+            search copy files
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.Copy.CopyFile(System.String,System.String,System.Boolean@,WPFExplorer.Copy)">
+            <summary>
+            method for copy files
+            </summary>
+            <param name="copy"></param>
+            <param name="newPath"></param>
+        </member>
+        <member name="M:WPFExplorer.Copy.Reset">
+            <summary>
+            method reset
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Copy.To">
+            <summary>
+            for to copy
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Copy.In">
+            <summary>
+            for in copy
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.CreateContent">
+            <summary>
+            class createContent
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.CreateContent.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.CreateContent.Create(System.String,System.String)">
+            <summary>
+            method for create
+            </summary>
+            <param name="key"></param>
+            <param name="path"></param>
+        </member>
+        <member name="M:WPFExplorer.CreateContent.CreateDictionary(System.String)">
+            <summary>
+            method for create directory
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="P:WPFExplorer.CreateContent.NewFile">
+            <summary>
+            method fro create file
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.Delete">
+            <summary>
+            class delete content
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.Delete.StartDelete">
+            <summary>
+            method fro start delete
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.Delete.DeleteFile(System.String)">
+            <summary>
+            method for delete file
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:WPFExplorer.Delete.DeleteDirectory(System.String)">
+            <summary>
+            method for delete directory
+            </summary>
+            <param name="path"></param>
+        </member>
+        <member name="M:WPFExplorer.Delete.Reset">
+            <summary>
+            method for reset info
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Delete.Del">
+            <summary>
+             list delete
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Delete.Files">
+            <summary>
+            method for add files
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Delete.Dellited">
+            <summary>
+            method for return del
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.Dirs">
+            <summary>
+            class for save dirs choise user
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.Elemnts.Add(WPFExplorer.Elemnts)">
+            <summary>
+            method for add new element
+            </summary>
+            <param name="el">new element</param>
+        </member>
+        <member name="M:WPFExplorer.Elemnts.Reset">
+            <summary>
+            method for reset
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.Elemnts.DeletePath(System.Collections.Generic.List{System.IO.DirectoryInfo})">
+            <summary>
+            method for delete path
+            </summary>
+            <param name="?"></param>
+        </member>
+        <member name="P:WPFExplorer.Elemnts.Parent">
+            <summary>
+            property parent
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Elemnts.Root">
+            <summary>
+            property root
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Elemnts.GetRoot">
+            <summary>
+            method for get root
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Elemnts.GetActionNode">
+            <summary>
+            method for get new Node
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Elemnts.GetActionFolder">
+            <summary>
+            method for get action folder
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.Dirs.Test(WPFExplorer.Elemnts)">
+            <summary>
+            method for test 
+            </summary>
+            <param name="el">new element</param>
+            <returns>choise</returns>
+        </member>
+        <member name="M:WPFExplorer.Dirs.Add(WPFExplorer.Elemnts)">
+            <summary>
+            method for add
+            </summary>
+            <param name="el"></param>
+        </member>
+        <member name="M:WPFExplorer.Dirs.op_Increment(WPFExplorer.Dirs)">
+            <summary>
+            operator ++
+            </summary>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WPFExplorer.Dirs.op_Decrement(WPFExplorer.Dirs)">
+            <summary>
+            operator --
+            </summary>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WPFExplorer.Dirs.Reset">
+            <summary>
+            method for Reset
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.Dirs.DeleteLast">
+            <summary>
+            method for delete last element
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.Dirs.GetIndex">
+            <summary>
+            method for return index
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:WPFExplorer.Dirs.GetRoot">
+            <summary>
+            proprety for get root
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Dirs.GetActionNode">
+            <summary>
+            method for return action dir parent
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Dirs.GetActionFolder">
+            <summary>
+            method for return action folder
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.MediatorProgressBar">
+            <summary>
+            class for mediator WinProgressBar
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorProgressBar.Items">
+            <summary>
+            list selected items
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorProgressBar.ActCopy">
+            <summary>
+            object my class
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorProgressBar.Name">
+            <summary>
+            for look at file name 
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorProgressBar.Count">
+            <summary>
+            value progress bar
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorProgressBar.Close">
+            <summary>
+            for close window
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorProgressBar.Root">
+            <summary>
+            for root
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorProgressBar.GetRoot">
+            <summary>
+            method for get root
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorProgressBar.Ask">
+            <summary>
+            method for ask user
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.MediatorSearch">
+            <summary>
+            class mediator for serach
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorSearch.AddFile">
+            <summary>
+            method for add file in listview
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorSearch.AddDir">
+            <summary>
+            method for add file in listview
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.MediatreInfoWin">
+            <summary>
+            class-delegate for fill PropertyWindows
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatreInfoWin.Windows">
+            <summary>
+            method for info Windows
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatreInfoWin.Proccesor">
+            <summary>
+            method for info Processor
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatreInfoWin.RAM">
+            <summary>
+            method for info RAM
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatreInfoWin.VideoController">
+            <summary>
+            method for info Video Controller
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.BaseSepcialFilders">
+            <summary>
+            base class for special filder video,
+            docutemt also music,picture,desktop too
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.BaseSepcialFilders.Path">
+            <summary>
+            property for return path 
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.BaseSepcialFilders.PathImage">
+            <summary>
+            property for return path image
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.MyLinks.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MyLinks.Path">
+            <summary>
+            property for return path 
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MyLinks.PathImage">
+            <summary>
+            property for return path image
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_about_48">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_add_new_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_ask_question_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_ask_question_48">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_burn_folder_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_checklist_48">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_copy_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_data_sheet_filled_48">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_delete_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_document_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_documents_folder_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_downloads_folder_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_file_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_file_96">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_folder_invoices_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_hdd_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_insert_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_left_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_list_of_thumbnails_48">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_medium_icons_48">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_microsoft_powerpoint_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_microsoft_word_16__1_">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_movies_folder_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_open_48">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_photos_folder_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_pictures_folder_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_rename_48">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_right_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_search_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_show_property_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_space_shuttle_64">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_star_filled_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_windows_explorer_32">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_windows8_96">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_workstation_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_xlarge_icons_48">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Properties.Resources.icons8_Монитор_16">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.PropertyWindows">
+            <summary>
+            Логика взаимодействия для PropertyWindows.xaml
+            </summary>
+            <summary>
+            PropertyWindows
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.PropertyWindows.#ctor">
+            <summary>
+            constructor default
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.PropertyWindows.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.Desktop">
+            <summary>
+            class fo special folder Desktop
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.Desktop.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Desktop.Path">
+            <summary>
+            property for return path 
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.Desktop.PathImage">
+            <summary>
+            property for return path image
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.MyDocuments">
+            <summary>
+            class for special folder MyDocuments
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.MyDocuments.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MyDocuments.Path">
+            <summary>
+            property for return path 
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MyDocuments.PathImage">
+            <summary>
+            property for return path image
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.MyDowloads">
+             <summary>
+            class for special folder MyDowloads
+             </summary>
+        </member>
+        <member name="M:WPFExplorer.MyDowloads.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MyDowloads.Path">
+            <summary>
+            property for return path 
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MyDowloads.PathImage">
+            <summary>
+            property for return path image
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.MyMusic">
+            <summary>
+            class for special folder MyMusic
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.MyMusic.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MyMusic.Path">
+            <summary>
+            property for return path 
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MyMusic.PathImage">
+            <summary>
+            property for return path image
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.MyPicture">
+             <summary>
+            class for special folder MyDowloads
+             </summary>
+        </member>
+        <member name="M:WPFExplorer.MyPicture.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MyPicture.Path">
+            <summary>
+            property for return path 
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MyPicture.PathImage">
+            <summary>
+            property for return path image
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.MyVideo">
+            <summary>
+            class for special folder MyVideo
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.MyVideo.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MyVideo.Path">
+            <summary>
+            property for return path 
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MyVideo.PathImage">
+            <summary>
+            property for return path image
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.Rename">
+            <summary>
+            class for Rename
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.Rename.ReName(System.String,System.String,System.String@)">
+            <summary>
+            method for rename comtent
+            </summary>
+            <param name="path"></param>
+            <param name="newName"></param>
+        </member>
+        <member name="T:WPFExplorer.MediatorWinRename">
+            <summary>
+            method for rename 
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorWinRename.NameFile">
+            <summary>
+            method for name file
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorWinRename.EnableBtnBack">
+            <summary>
+            method for visibiliyu button back
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.MediatorWinRename.EnabledBtnFront">
+            <summary>
+            method for visibility buttin font
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.Search">
+            <summary>
+            class for search content
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.Search.SearchContent(System.IO.DirectoryInfo,System.String)">
+            <summary>
+            method for search content
+            </summary>
+            <param name="root">where are search file</param>
+            <param name="mask">mask need's content</param>
+        </member>
+        <member name="T:WPFExplorer.SpecialFolders">
+            <summary>
+            class common class special folder
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.SpecialFolders.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.SpecialFolders.GetSpecFoldersMyComp">
+            <summary>
+            property return list special folders
+            </summary>
+        </member>
+        <member name="P:WPFExplorer.SpecialFolders.GetSpecFoldersFavorites">
+            <summary>
+            property return list specFolderFavorite
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.ViewList">
+            <summary>
+            class for view list view
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.ViewList.FillFile(System.IO.FileInfo)">
+            <summary>
+            method for add icon file
+            </summary>
+            <param name="file"></param>
+        </member>
+        <member name="M:WPFExplorer.ViewList.FillDirectory(System.IO.DirectoryInfo,System.String,System.String)">
+            <summary>
+            for add directory ico
+            </summary>
+            <param name="dir"></param>
+            <param name="Name"></param>
+            <param name="ImagePath"></param>
+        </member>
+        <member name="M:WPFExplorer.ViewList.FillDrive(System.IO.DriveInfo,System.String)">
+            <summary>
+            for add drive ico
+            </summary>
+            <param name="drive"></param>
+            <param name="ImagePath"></param>
+        </member>
+        <member name="T:WPFExplorer.WindowsRename">
+            <summary>
+            Логика взаимодействия для WindowsRename.xaml
+            </summary>
+            <summary>
+            WindowsRename
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.WindowsRename.#ctor">
+            <summary>
+            constructor default
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.WindowsRename.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for btnOk
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.WindowsRename.BoxName_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            method for enabled 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.WindowsRename.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.WInProgressBar">
+            <summary>
+            Логика взаимодействия для WInProgressBar.xaml
+            </summary>
+            <summary>
+            WInProgressBar
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.WInProgressBar.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.WInProgressBar.DeleteContend">
+            <summary>
+            method for delete content
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.WInProgressBar.CopyContent">
+            <summary>
+            method for copy content
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.WInProgressBar.Ask">
+            <summary>
+            method for ask user cahnge file or no
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WPFExplorer.WInProgressBar.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method if user click yes
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.WInProgressBar.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for user click no
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.WInProgressBar.Show(System.String)">
+            <summary>
+            method for look at name file
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:WPFExplorer.WInProgressBar.ShowDialog(System.Int32)">
+            <summary>
+            method for value progress bar
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:WPFExplorer.WInProgressBar.ShowClose">
+            <summary>
+            method for close
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.WInProgressBar.Window_ContentRendered(System.Object,System.EventArgs)">
+            <summary>
+            method for loaded after render window
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.WInProgressBar.Window_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.WInProgressBar.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.App">
+            <summary>
+            Логика взаимодействия для App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:WPFExplorer.MainWindow">
+            <summary>
+            Логика взаимодействия для MainWindow.xaml
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.#ctor">
+            <summary>
+            default constructor
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.BtnView_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for click View
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.btnComputer_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for click Computer
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.btnInfo_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for clock button Info
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.AddSpecFoldersFavorites">
+            <summary>
+            method for add new items to My Favorites
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.AddSpecFoldersMyComp">
+            <summary>
+            method for add new items to My Computer 
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.AddItemTreeVew(System.IO.DirectoryInfo,System.String,System.String)">
+            <summary>
+            method for Create new TreeViewItem
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="info">path folder</param>
+            <param name="pathImage">path to image</param>
+            <returns>new item</returns>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.Window_Loaded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for view Drive 
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.WalkToParent(System.IO.DirectoryInfo)">
+            <summary>
+            method for recurs walk dir
+            </summary>
+            <param name="root"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.TVRoot_Expanded(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for view filder
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.TestFolder(System.IO.DirectoryInfo,System.Windows.Controls.TreeViewItem)">
+            <summary>
+            method for test empty folder
+            </summary>
+            <param name="root"></param>
+            <param name="item"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.AddDirectoryFillListView(System.String,System.IO.DirectoryInfo)">
+            <summary>
+            method for add item dir ListView
+            </summary>
+            <param name="newFile"></param>
+            <param name="dir"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.FillListView(System.IO.DirectoryInfo,System.String)">
+            <summary>
+            method for filling ListView
+            </summary>
+            <param name="root"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.TVRoot_SelectedItemChanged">
+            <summary>
+            method for change selected
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.AddFoldresListView(System.IO.DirectoryInfo,WPFExplorer.ViewList)">
+            <summary>
+            method for add new items in TreeView
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="path"></param>
+            <param name="pathImage"></param>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.AddSavePath(System.IO.DirectoryInfo,System.Boolean)">
+            <summary>
+            method for save path
+            </summary>
+            <param name="root">content</param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.TestTread">
+            <summary>
+            method for test active thread
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.LVInfo_MouseDoubleClick(System.Object,System.Windows.Input.MouseButtonEventArgs)">
+            <summary>
+            method for new information on ListView info
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.ChangeSelectedTreeView(System.Windows.Controls.ListViewItem)">
+            <summary>
+            method for change selected TreeView
+            </summary>
+            <param name="info"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.BtnOpen_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for open button
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.ItemComputer_Selected(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for open selected item TreeView ItemComputre
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.ItemFavorites_Selected(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for selected item TreeView ItemFavorites
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.SelectedTreeView(System.Windows.Controls.TreeViewItem)">
+            <summary>
+            method for active seclected root TreeView
+            </summary>
+            <param name="root"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.Window_SizeChanged(System.Object,System.Windows.SizeChangedEventArgs)">
+            <summary>
+            method for change size ListView Path
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.MenuItem_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for create new content
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.LVInfo_ContextMenuOpening(System.Object,System.Windows.Controls.ContextMenuEventArgs)">
+            <summary>
+            method for open contex menu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.LVInfo_ContextMenuClosing(System.Object,System.Windows.Controls.ContextMenuEventArgs)">
+            <summary>
+            method for close context menu
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.MenuItem_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for rename content
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.MenuDelete_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for delete files
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.MenuCopy_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for copy files
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.MenuInsert_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for insert files
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.btnMedium_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for button Medium
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.AddListViewListFolder``1(``0,System.String,System.String)">
+            <summary>
+            method for 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="content"></param>
+            <param name="pathImage"></param>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.TestSelected(System.Windows.Controls.ListViewItem,System.IO.DirectoryInfo)">
+            <summary>
+            method for testing selected
+            </summary>
+            <param name="item">item list view</param>
+            <param name="dir">folder</param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.AddDirectoryFillListViewList(System.String,System.IO.DirectoryInfo)">
+            <summary>
+            method for add new Item dir
+            </summary>
+            <param name="newFile"></param>
+            <param name="dir"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.AddFileFillListViewList(System.String,System.IO.FileInfo)">
+            <summary>
+            method for add file to ListView
+            </summary>
+            <param name="newFile"></param>
+            <param name="file"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.FillListViewList(System.IO.DirectoryInfo,System.String)">
+            <summary>
+            method for filling listView
+            </summary>
+            <param name="root"></param>
+            <param name="newFile"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.btnBig_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for click buttn Big
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.btnMedium_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for click button Medium
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.Show(System.IO.DirectoryInfo)">
+            <summary>
+            method for show
+            </summary>
+            <param name="root"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.Button_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for click button back
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.Button_Click_1(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for click in button front
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.TextBox_KeyDown(System.Object,System.Windows.Input.KeyEventArgs)">
+            <summary>
+            method for key down button enter for my TextBox
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.GetMask">
+            <summary>
+            method for get mask
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.ClearListView">
+            <summary>
+            method for get clear listview
+            </summary>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.AddSearchFile(System.IO.FileInfo)">
+            <summary>
+            method for add search file
+            </summary>
+            <param name="file"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.AddSearchDir(System.IO.DirectoryInfo)">
+            <summary>
+            method for add search dir
+            </summary>
+            <param name="dir"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.Button_Click_2(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for stop search
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.Button_Click_3(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            method for about programm
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:WPFExplorer.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>

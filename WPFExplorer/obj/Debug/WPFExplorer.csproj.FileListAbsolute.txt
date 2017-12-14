@@ -1,0 +1,128 @@
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe.config
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.pdb
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.csprojResolveAssemblyReference.cache
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\obj\Debug\MainWindow.baml
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\obj\Debug\MainWindow.g.cs
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\obj\Debug\App.g.cs
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer_MarkupCompile.cache
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.g.resources
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.Properties.Resources.resources
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.csproj.GenerateResource.Cache
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.exe
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.pdb
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\obj\Debug\PropertyWindows.baml
+c:\users\windows 8.1\documents\visual studio 2013\Projects\WPFExplorer\WPFExplorer\obj\Debug\PropertyWindows.g.cs
+E:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe.config
+E:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.XML
+E:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe
+E:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.pdb
+E:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.csprojResolveAssemblyReference.cache
+E:\WPFExplorer\WPFExplorer\obj\Debug\MainWindow.baml
+E:\WPFExplorer\WPFExplorer\obj\Debug\PropertyWindows.baml
+E:\WPFExplorer\WPFExplorer\obj\Debug\MainWindow.g.cs
+E:\WPFExplorer\WPFExplorer\obj\Debug\PropertyWindows.g.cs
+E:\WPFExplorer\WPFExplorer\obj\Debug\App.g.cs
+E:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer_MarkupCompile.cache
+E:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.g.resources
+E:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.Properties.Resources.resources
+E:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.csproj.GenerateResource.Cache
+E:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.exe
+E:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.pdb
+H:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe.config
+H:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.XML
+H:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.exe
+H:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.pdb
+H:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe
+H:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.pdb
+H:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.csprojResolveAssemblyReference.cache
+H:\WPFExplorer\WPFExplorer\obj\Debug\MainWindow.baml
+H:\WPFExplorer\WPFExplorer\obj\Debug\PropertyWindows.baml
+H:\WPFExplorer\WPFExplorer\obj\Debug\MainWindow.g.cs
+H:\WPFExplorer\WPFExplorer\obj\Debug\PropertyWindows.g.cs
+H:\WPFExplorer\WPFExplorer\obj\Debug\App.g.cs
+H:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer_MarkupCompile.cache
+H:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.g.resources
+H:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.Properties.Resources.resources
+H:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.csproj.GenerateResource.Cache
+D:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe.config
+D:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.XML
+D:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.exe
+D:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.pdb
+D:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe
+D:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.pdb
+D:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.csprojResolveAssemblyReference.cache
+D:\WPFExplorer\WPFExplorer\obj\Debug\MainWindow.baml
+D:\WPFExplorer\WPFExplorer\obj\Debug\PropertyWindows.baml
+D:\WPFExplorer\WPFExplorer\obj\Debug\MainWindow.g.cs
+D:\WPFExplorer\WPFExplorer\obj\Debug\PropertyWindows.g.cs
+D:\WPFExplorer\WPFExplorer\obj\Debug\App.g.cs
+D:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer_MarkupCompile.cache
+D:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.g.resources
+D:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.Properties.Resources.resources
+D:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.csproj.GenerateResource.Cache
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe.config
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.XML
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.exe
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.pdb
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.pdb
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.csprojResolveAssemblyReference.cache
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\obj\Debug\MainWindow.baml
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\obj\Debug\PropertyWindows.baml
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\obj\Debug\MainWindow.g.cs
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\obj\Debug\PropertyWindows.g.cs
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\obj\Debug\App.g.cs
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer_MarkupCompile.cache
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.g.resources
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.Properties.Resources.resources
+C:\Users\Windows 8.1\Desktop\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.csproj.GenerateResource.Cache
+D:\WPFExplorer\WPFExplorer\obj\Debug\WindowsRename.baml
+D:\WPFExplorer\WPFExplorer\obj\Debug\WindowsRename.g.cs
+D:\WPFExplorer\WPFExplorer\obj\Debug\WInProgressBar.baml
+D:\WPFExplorer\WPFExplorer\obj\Debug\WInProgressBar.g.cs
+D:\WPFExplorer\WPFExplorer\obj\Debug\App.baml
+C:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe.config
+C:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.XML
+C:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.exe
+C:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.pdb
+C:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe
+C:\WPFExplorer\WPFExplorer\bin\Debug\WPFExplorer.pdb
+C:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.csprojResolveAssemblyReference.cache
+C:\WPFExplorer\WPFExplorer\obj\Debug\MainWindow.baml
+C:\WPFExplorer\WPFExplorer\obj\Debug\PropertyWindows.baml
+C:\WPFExplorer\WPFExplorer\obj\Debug\WindowsRename.baml
+C:\WPFExplorer\WPFExplorer\obj\Debug\WInProgressBar.baml
+C:\WPFExplorer\WPFExplorer\obj\Debug\App.baml
+C:\WPFExplorer\WPFExplorer\obj\Debug\MainWindow.g.cs
+C:\WPFExplorer\WPFExplorer\obj\Debug\PropertyWindows.g.cs
+C:\WPFExplorer\WPFExplorer\obj\Debug\WindowsRename.g.cs
+C:\WPFExplorer\WPFExplorer\obj\Debug\WInProgressBar.g.cs
+C:\WPFExplorer\WPFExplorer\obj\Debug\App.g.cs
+C:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer_MarkupCompile.cache
+C:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.g.resources
+C:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.Properties.Resources.resources
+C:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.csproj.GenerateResource.Cache
+C:\WPFExplorer\WPFExplorer\obj\Debug\WPFExplorer.AboutBox1.resources
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe.config
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\bin\Debug\WPFExplorer.XML
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\WPFExplorer.exe
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\WPFExplorer.pdb
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\bin\Debug\WPFExplorer.exe
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\bin\Debug\WPFExplorer.pdb
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\WPFExplorer.csprojResolveAssemblyReference.cache
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\MainWindow.baml
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\PropertyWindows.baml
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\WindowsRename.baml
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\WInProgressBar.baml
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\App.baml
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\MainWindow.g.cs
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\PropertyWindows.g.cs
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\WindowsRename.g.cs
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\WInProgressBar.g.cs
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\App.g.cs
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\WPFExplorer_MarkupCompile.cache
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\WPFExplorer.g.resources
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\WPFExplorer.AboutBox1.resources
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\WPFExplorer.Properties.Resources.resources
+C:\Users\Windows 8.1\Desktop\WPF-MyExplorer\WPFExplorer\obj\Debug\WPFExplorer.csproj.GenerateResource.Cache
