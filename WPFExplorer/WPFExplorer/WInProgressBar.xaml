@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFExplorer.WInProgressBar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="" Height="120" Width="300" MaxHeight="160" MaxWidth="300" MinHeight="120" MinWidth="300" ContentRendered="Window_ContentRendered" Closing="Window_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition />
+            <!--<RowDefinition Height="40"/>-->
+        </Grid.RowDefinitions>
+        <!--<Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>-->
+        <ProgressBar Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Height="20" Name="PB" Foreground="LightGreen"/>
+        <Label Name="NameFile" Content="Name File:" Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2" FontSize="15" />
+        <!--<Label  Grid.Column="0" Grid.Row="2"  Grid.ColumnSpan="2" Name="Number" VerticalAlignment="Top"/>-->
+        <!--<Label Name="Ask" Content="Are you sure?" FontSize="15" VerticalAlignment="Top" HorizontalAlignment="Center"  Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Button Name="btnYes" Content="Yes" Grid.Row="2" Grid.Column="0" Width="70" Height="23" HorizontalAlignment="Center" Click="Button_Click" Margin="5"/>
+        <Button Name="btNo" Content="No" Grid.Row="2" Grid.Column="1" Width="70" Height="23" HorizontalAlignment="Center" Click="Button_Click_1" Margin="5"/>-->
+    </Grid>
+</Window>
+
+    
